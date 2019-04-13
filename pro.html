@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<style type="text/css">
+
+#header {
+  position: fixed;
+  top: 0;
+  min-height: 75px;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #eee;
+  @media (max-width: 600px) {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        background-color: coral;
+    }
+}
+
+</style>
+<body>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<header id="header">
+  <img  id="header-img" src="https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwi9iYDk8MzhAhWKLo8KHdG5BKIQjRx6BAgBEAU&url=https%3A%2F%2Fmedium.com%2F%40theimgclist%2Fa-day-in-googles-women-techmakers-summit-e6b4269ac069&psig=AOvVaw2OQSpL_127CLvoEKO4uQNJ&ust=1555238407521150" alt="women techmakers image"/>
+  
+  
+  <nav id="nav-bar">
+    <ul>
+      <li><a class="nav-link" href="#features">Features</a></li>
+      <li><a class="nav-link" href="#how-it-works">How It Works</a></li>
+      <li><a class="nav-link" href="#pricing">Pricing</a></li>
+    </ul>
+  </nav>
+  </header>
+
+
+<section id="features">
+  easy shipping 
+  easy returns</section>
+
+
+<section id="how-it-works">
+    <iframe id="video" height="315" src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+  </section>
+<section id="pricing">there are different prices for each please visit the store for the exact rates</section>
+
+
+<form id="form"  action="https://www.freecodecamp.com/email-submit">
+  <input name="email" type="email"  id="email" required placeholder="enter your email here"/>
+  <input type="submit" id="submit" />
+  </form>
+</body>
+</html>
